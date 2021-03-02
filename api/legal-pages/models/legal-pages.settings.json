@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legal_pages",
+  "info": {
+    "name": "11 - Legal Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "legal_items_content": {
+      "type": "dynamiczone",
+      "components": [
+        "utils.text-content",
+        "utils.image-content"
+      ]
+    },
+    "footnotes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.footnotes-section"
+    }
+  }
+}

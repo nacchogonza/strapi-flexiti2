@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_utils_item_work_teams",
+  "info": {
+    "name": "item_work_team",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

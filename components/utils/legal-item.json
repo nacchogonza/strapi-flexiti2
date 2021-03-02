@@ -8,6 +8,13 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "legal_item_content": {
+      "type": "dynamiczone",
+      "components": [
+        "utils.text-content",
+        "utils.image-content"
+      ]
     }
   }
 }
