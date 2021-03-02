@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/merchants-pages",
+      "handler": "merchants-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/merchants-pages/count",
+      "handler": "merchants-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/merchants-pages/:id",
+      "handler": "merchants-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/merchants-pages",
+      "handler": "merchants-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/merchants-pages/:id",
+      "handler": "merchants-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/merchants-pages/:id",
+      "handler": "merchants-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_utils_item_cta_cards_numbers",
+  "info": {
+    "name": "item_cta_cards_numbers",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

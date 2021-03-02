@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-us-pages",
+      "handler": "about-us-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-us-pages/count",
+      "handler": "about-us-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-us-pages/:id",
+      "handler": "about-us-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/about-us-pages",
+      "handler": "about-us-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-us-pages/:id",
+      "handler": "about-us-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-us-pages/:id",
+      "handler": "about-us-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

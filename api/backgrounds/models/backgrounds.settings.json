@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backgrounds",
+  "info": {
+    "name": "Backgrounds"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    }
+  }
+}

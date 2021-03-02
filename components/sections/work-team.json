@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_work_teams",
+  "info": {
+    "name": "work_team",
+    "icon": "user-edit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "executive_team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.team"
+    },
+    "leadership_team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.team"
+    }
+  }
+}

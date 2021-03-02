@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsrooms_pages",
+  "info": {
+    "name": "08 - Newsroom Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language"
+    },
+    "page_content": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.merchants-block",
+        "blocks.awards-block",
+        "sections.info-section",
+        "sections.footnotes-section",
+        "sections.light-section",
+        "sections.fa-qs",
+        "sections.list-section",
+        "sections.work-team",
+        "call-to-actions.cta-jobs",
+        "call-to-actions.cta-two-columns",
+        "call-to-actions.cta-cards",
+        "call-to-actions.cta-basic",
+        "banners.light-banner",
+        "banners.overlap-banner",
+        "sections.cards-section",
+        "call-to-actions.cta-cards-numbers",
+        "blocks.text-content",
+        "blocks.jobs-block"
+      ]
+    }
+  }
+}

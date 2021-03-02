@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_utils_item_footnotes",
+  "info": {
+    "name": "item_footnotes",
+    "icon": "infinity"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

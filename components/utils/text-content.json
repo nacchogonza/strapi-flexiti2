@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_utils_text_contents",
+  "info": {
+    "name": "text_content",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

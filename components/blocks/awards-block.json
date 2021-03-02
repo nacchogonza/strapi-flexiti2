@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_awards_blocks",
+  "info": {
+    "name": "Awards_Block",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "awards": {
+      "collection": "award"
+    }
+  }
+}

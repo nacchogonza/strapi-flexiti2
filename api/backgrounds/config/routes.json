@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/backgrounds",
+      "handler": "backgrounds.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/backgrounds/count",
+      "handler": "backgrounds.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/backgrounds/:id",
+      "handler": "backgrounds.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/backgrounds",
+      "handler": "backgrounds.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/backgrounds/:id",
+      "handler": "backgrounds.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/backgrounds/:id",
+      "handler": "backgrounds.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

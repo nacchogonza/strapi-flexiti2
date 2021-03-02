@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_footnotes_sections",
+  "info": {
+    "name": "Footnotes_Section",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "footnotes": {
+      "type": "richtext"
+    }
+  }
+}

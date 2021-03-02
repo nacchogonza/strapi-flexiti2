@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_utils_job_translates",
+  "info": {
+    "name": "job_translate",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "title_and_description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.title-and-description"
+    },
+    "language": {
+      "model": "language"
+    }
+  }
+}

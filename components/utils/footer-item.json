@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utils_footer_items",
+  "info": {
+    "name": "footer_item",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "link_name": {
+      "type": "string"
+    },
+    "external_link": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

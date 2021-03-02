@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_utils_work_title_translates",
+  "info": {
+    "name": "work_title_translate",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language"
+    }
+  }
+}

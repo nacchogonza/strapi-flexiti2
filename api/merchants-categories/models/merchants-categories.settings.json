@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "merchants_categories",
+  "info": {
+    "name": "Merchants Categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "category_title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

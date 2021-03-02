@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_list_sections",
+  "info": {
+    "name": "List_Section",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image_position": {
+      "type": "boolean",
+      "default": false
+    },
+    "item_list_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.item-list-section",
+      "max": 4
+    }
+  }
+}

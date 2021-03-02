@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/newsrooms-pages",
+      "handler": "newsrooms-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/newsrooms-pages/count",
+      "handler": "newsrooms-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/newsrooms-pages/:id",
+      "handler": "newsrooms-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/newsrooms-pages",
+      "handler": "newsrooms-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/newsrooms-pages/:id",
+      "handler": "newsrooms-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/newsrooms-pages/:id",
+      "handler": "newsrooms-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

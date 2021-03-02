@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "footer_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.footer-section",
+      "max": 4
+    },
+    "language": {
+      "model": "language"
+    },
+    "title": {
+      "type": "string"
+    },
+    "footer_notes": {
+      "type": "richtext"
+    }
+  }
+}

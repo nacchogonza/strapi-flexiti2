@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_fa_qs",
+  "info": {
+    "name": "FAQs",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "questions_category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.questions-category"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/help-pages",
+      "handler": "help-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/help-pages/count",
+      "handler": "help-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/help-pages/:id",
+      "handler": "help-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/help-pages",
+      "handler": "help-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/help-pages/:id",
+      "handler": "help-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/help-pages/:id",
+      "handler": "help-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

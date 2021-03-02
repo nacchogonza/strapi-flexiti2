@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_utils_job_privacy_consents",
+  "info": {
+    "name": "job_privacy_consent",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_and_description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.title-and-description"
+    },
+    "language": {
+      "model": "language"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

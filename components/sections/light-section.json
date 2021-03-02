@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_light_sections",
+  "info": {
+    "name": "Light_Section",
+    "icon": "braille",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image_position": {
+      "type": "boolean",
+      "default": false
+    },
+    "background_color": {
+      "model": "backgrounds"
+    }
+  }
+}

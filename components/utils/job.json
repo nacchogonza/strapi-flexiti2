@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_utils_jobs",
+  "info": {
+    "name": "job",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "job_translate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.job-translate"
+    }
+  }
+}

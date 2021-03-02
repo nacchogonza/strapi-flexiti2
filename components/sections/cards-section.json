@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_cards_sections",
+  "info": {
+    "name": "Cards_Section",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "item_cards_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.cta-card-item",
+      "max": 3
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    }
+  }
+}

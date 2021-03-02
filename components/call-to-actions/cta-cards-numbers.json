@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_call_to_actions_cta_cards_numbers",
+  "info": {
+    "name": "CTA_Cards_Numbers",
+    "icon": "sort-numeric-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "item_cta_cards_numbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.item-cta-cards-numbers",
+      "max": 4
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    }
+  }
+}

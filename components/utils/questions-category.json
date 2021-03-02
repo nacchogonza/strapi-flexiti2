@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_utils_questions_categories",
+  "info": {
+    "name": "questions_category",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.item-question"
+    }
+  }
+}

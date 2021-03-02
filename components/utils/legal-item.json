@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_utils_legal_items",
+  "info": {
+    "name": "legal_item",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

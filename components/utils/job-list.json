@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_utils_job_lists",
+  "info": {
+    "name": "job_list",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "job_privacy_consent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.job-privacy-consent"
+    },
+    "jobs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.job"
+    }
+  }
+}

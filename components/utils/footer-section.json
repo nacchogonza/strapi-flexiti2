@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utils_footer_sections",
+  "info": {
+    "name": "footer_section",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "footer_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.footer-item",
+      "max": 4
+    }
+  }
+}

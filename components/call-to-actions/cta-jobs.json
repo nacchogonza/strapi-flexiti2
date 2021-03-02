@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_call_to_actions_cta_jobs",
+  "info": {
+    "name": "CTA_Jobs",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

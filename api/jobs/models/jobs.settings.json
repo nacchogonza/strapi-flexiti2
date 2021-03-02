@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "Jobs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "job_privacy_consent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.job-privacy-consent"
+    },
+    "jobs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.job"
+    }
+  }
+}

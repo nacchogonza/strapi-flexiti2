@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_text_contents",
+  "info": {
+    "name": "Text Content",
+    "icon": "file-word",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "background_color": {
+      "model": "backgrounds"
+    }
+  }
+}

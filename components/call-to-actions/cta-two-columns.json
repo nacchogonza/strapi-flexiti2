@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_call_to_actions_cta_two_columns",
+  "info": {
+    "name": "CTA_Two_Columns",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.cta-two-columns-item",
+      "max": 3
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    }
+  }
+}

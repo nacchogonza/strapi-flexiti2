@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_utils_title_and_descriptions",
+  "info": {
+    "name": "title_and_description",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

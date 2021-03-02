@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "Navbars",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "left_side": {
+      "type": "dynamiczone",
+      "components": [
+        "utils.nav-item",
+        "utils.dropdown-item"
+      ]
+    },
+    "language": {
+      "model": "language"
+    },
+    "right_side": {
+      "type": "dynamiczone",
+      "components": [
+        "utils.nav-item",
+        "utils.dropdown-item"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/merchants-categories",
+      "handler": "merchants-categories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/merchants-categories/count",
+      "handler": "merchants-categories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/merchants-categories/:id",
+      "handler": "merchants-categories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/merchants-categories",
+      "handler": "merchants-categories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/merchants-categories/:id",
+      "handler": "merchants-categories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/merchants-categories/:id",
+      "handler": "merchants-categories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_sections_info_sections",
+  "info": {
+    "name": "Info_Section",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image_position": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "info_title": {
+      "type": "richtext"
+    },
+    "info_subtitle": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    }
+  }
+}

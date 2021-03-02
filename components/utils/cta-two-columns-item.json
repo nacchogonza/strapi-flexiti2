@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_call_to_actions_cta_two_columns_items",
+  "info": {
+    "name": "Cta_Two_Columns_Item",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

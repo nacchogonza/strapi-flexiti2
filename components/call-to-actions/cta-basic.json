@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_call_to_actions_cta_basics",
+  "info": {
+    "name": "CTA_Basic",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    },
+    "background": {
+      "model": "backgrounds"
+    }
+  }
+}

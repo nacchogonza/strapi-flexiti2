@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_item_list_sections",
+  "info": {
+    "name": "item_list_section",
+    "icon": "caret-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

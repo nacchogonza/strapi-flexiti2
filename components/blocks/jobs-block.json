@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_jobs_blocks",
+  "info": {
+    "name": "Jobs Block",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

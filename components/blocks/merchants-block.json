@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_merchants_blocks",
+  "info": {
+    "name": "Merchants_Block",
+    "icon": "cart-arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "merchants": {
+      "collection": "merchants"
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    },
+    "logo_type": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

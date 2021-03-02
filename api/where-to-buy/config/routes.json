@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/where-to-buys",
+      "handler": "where-to-buy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/where-to-buys/count",
+      "handler": "where-to-buy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/where-to-buys/:id",
+      "handler": "where-to-buy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/where-to-buys",
+      "handler": "where-to-buy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/where-to-buys/:id",
+      "handler": "where-to-buy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/where-to-buys/:id",
+      "handler": "where-to-buy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

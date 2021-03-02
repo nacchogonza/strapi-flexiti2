@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_utils_teams",
+  "info": {
+    "name": "Team",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "team_title": {
+      "type": "string"
+    },
+    "team_members": {
+      "collection": "team-members"
+    }
+  }
+}

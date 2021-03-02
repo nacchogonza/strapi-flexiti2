@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_call_to_actions_cta_cards",
+  "info": {
+    "name": "CTA_Cards",
+    "icon": "mouse-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.cta-card-item",
+      "max": 4
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_name": {
+      "type": "string"
+    }
+  }
+}

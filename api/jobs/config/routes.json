@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jobs",
+      "handler": "jobs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jobsFilter",
+      "handler": "jobs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jobsFilterLanguage",
+      "handler": "jobs.findAll",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jobs",
+      "handler": "jobs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jobs",
+      "handler": "jobs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

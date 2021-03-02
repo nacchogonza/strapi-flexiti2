@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_utils_dropdown_items",
+  "info": {
+    "name": "dropdown_item",
+    "icon": "eye-dropper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_item_name": {
+      "type": "string"
+    },
+    "dropdown_nav_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.nav-item"
+    },
+    "border": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
