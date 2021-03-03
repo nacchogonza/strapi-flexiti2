@@ -14,17 +14,18 @@
     "title": {
       "type": "richtext"
     },
-    "legal_items_content": {
-      "type": "dynamiczone",
-      "components": [
-        "utils.text-content",
-        "utils.image-content"
-      ]
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.legal-item"
     },
     "footnotes": {
       "type": "component",
       "repeatable": false,
       "component": "sections.footnotes-section"
+    },
+    "language": {
+      "model": "language"
     }
   }
 }

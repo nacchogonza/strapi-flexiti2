@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_utils_legal_contents",
+  "info": {
+    "name": "legal_content",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

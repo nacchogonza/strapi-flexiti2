@@ -2,19 +2,18 @@
   "collectionName": "components_utils_legal_items",
   "info": {
     "name": "legal_item",
-    "icon": "balance-scale-right"
+    "icon": "balance-scale-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "legal_item_content": {
-      "type": "dynamiczone",
-      "components": [
-        "utils.text-content",
-        "utils.image-content"
-      ]
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.legal-content"
     }
   }
 }
