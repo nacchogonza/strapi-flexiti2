@@ -24,6 +24,10 @@
     },
     "link_name": {
       "type": "string"
+    },
+    "external_link": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

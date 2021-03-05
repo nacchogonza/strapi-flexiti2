@@ -2,7 +2,8 @@
   "collectionName": "components_utils_footer_items",
   "info": {
     "name": "footer_item",
-    "icon": "angle-down"
+    "icon": "angle-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,8 @@
       "type": "string"
     },
     "external_link": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "link": {
       "type": "string"

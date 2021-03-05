@@ -2,7 +2,8 @@
   "collectionName": "components_utils_nav_items",
   "info": {
     "name": "nav_item",
-    "icon": "cookie-bite"
+    "icon": "cookie-bite",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,10 @@
     },
     "link_name": {
       "type": "string"
+    },
+    "external_link": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
