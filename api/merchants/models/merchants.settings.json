@@ -18,39 +18,10 @@
     "category": {
       "model": "merchants-categories"
     },
-    "background_image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "link": {
-      "type": "string",
-      "required": true
-    },
-    "logo_bw": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "languages": {
-      "collection": "language"
+    "merchant_translate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.merchant-item"
     }
   }
 }
